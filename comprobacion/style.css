@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-image: url(../images/Fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+}
+/*-------------------------container-------------------------*/
+.container{
+    margin-top: 5%;
+}
+/*-------------------------header-------------------------*/
+header{
+    width: 100%;
+    font-size: 10px;
+    margin-left: 26%;
+    padding-bottom: 10%;
+    text-transform: uppercase;
+}
+/*-------------------------form-------------------------*/
+form{
+    background: #ffffff6a;
+    width: 70%;
+    text-transform: uppercase;
+    margin-left: 30%;
+    height: 400px;
+}
+/*-------------------------.form-------------------------*/
+.form{
+    display: flex;
+    /* background-color: aqua; */
+    margin-left: 20%;
+    width: 60%;
+    padding-top: 5%;
+    flex-direction: column;
+    /* align-items: center; */
+}
+/*-------------------------h4-------------------------*/
+.form > h4{
+    margin-left: 26%;
+    margin-top: 30px;
+    padding-bottom: 35px;
+}
+/*-------------------------input-------------------------*/
+.form > input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    border: solid 1px #000;
+    border-radius: 15px;
+    background: transparent;
+}
+/*-------------------------#verificar-------------------------*/
+#verificar{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: all .3s ease-in-out;
+}
+#verificar:hover{
+    transition: all .3s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.417);
+}

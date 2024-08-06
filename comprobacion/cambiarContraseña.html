@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabiar contraseña</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hola, te invitamos a cambiar tu contraseña por motivos de seguridad</h1>
+        </header>
+        <form action="../comprobacion/cambiarContraseña.php" method="post">
+            <div class="form">
+                <h4>Cambiar contraseña</h4>
+                <input type="text" name="user" id="user" placeholder="Ingresa tu usuario">
+                <input type="password" name="pass" id="pass" placeholder="Ingresa tu nueva contraseña">
+                <input type="password" name="passTwo" id="passTwo" placeholder="Confirma tu nueva contraseña">
+                <input type="submit" value="Registrar" id="verificar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
